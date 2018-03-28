@@ -1,0 +1,22 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px !important;
+}
+.jumbotron {
+  padding-top: 80px;
+  max-width: 100%;
+  text-align: center;
+  background-color: #FFFFFF;
+  background-image: url('../packages/circles-light/circles-light.png');
+}
+
+.navbar {
+  border-radius:0 !important;
+}
+
+.wrapper {
+  padding-left: 0px;
+  padding-right: 0px;
+  margin-left: auto;
+  margin-right: auto;
+}
