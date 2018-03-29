@@ -10,9 +10,8 @@
   <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet"> 
   <!-- Loading Bootstrap/Yet theme -->
   <link href="./packages/bootstrap3/css/bootstrap.min.css" rel="stylesheet">
-  <!-- <link href="./packages/yeti/bootstrap.min.css" rel="stylesheet"> -->
 
-  <!-- <link rel="shortcut icon" href="./packages/FlatUI-2/img/favicon.ico"> -->
+  <link rel="shortcut icon" href="./packages/favicon-book.ico">
 
   <!-- Custom styles for this template -->
   <link href="css/appearance.css" rel="stylesheet"/>
@@ -21,7 +20,8 @@
 <body>
 <nav class="navbar navbar-default bg-primary navbar-fixed-top">
   <div class="container-fluid">
-    <div class="navbar-header">
+
+  <div class="navbar-header">
       <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-links">
         <span class="sr-only">Toggle navigation</span>
         <span class="icon-bar"></span>
@@ -32,12 +32,13 @@
     </div>
 
     <div class="collapse navbar-collapse" id="navbar-links">
-      <ul class="nav navbar-nav navbar-right">
-        <li><a href="#description">Description <span class="sr-only">(current)</span></a></li>
-        <!-- <li><a href="#keynote">Keynote Speakers</a></li> -->
-        <li><a href="#call-for-papers">Call</a></li>
-        <li><a href="#dates">Dates</a></li>
-        <li><a href="#organizers">Organizers</a></li>
+      <!-- Tab panes -->
+      <ul id="tabs" class="nav nav-tabs navbar-right" role="tablist" >
+        <li role="presentation" class="active"><a href="#home" aria-controls="home" role="tab" data-toggle="tab">Home</a></li>
+        <!-- <li role="presentation"><a href="#speakers" aria-controls="speakers" role="tab" data-toggle="tab">Speakers</a></li> -->
+        <li role="presentation"><a href="#call" aria-controls="call" role="tab" data-toggle="tab">Call</a></li>
+        <li role="presentation"><a href="#dates" aria-controls="dates" role="tab" data-toggle="tab">Dates</a></li>
+        <li role="presentation"><a href="#organizers" aria-controls="organizers" role="tab" data-toggle="tab">Organizers</a></li>
       </ul>
     </div>
   </div>
@@ -49,65 +50,64 @@
       2018 KDD Workshop on Machine Learning for Medicine and Healthcare
     </h2>
     <p style="padding-top:10px">
-    <span class="glyphicon glyphicon-globe"></span>Location: London, United Kingdom<br/>
-      <span class="glyphicon glyphicon-calendar"></span>Workshop Date: August 20, 2018
+    <span class="glyphicon glyphicon-globe"></span>&nbsp;Location: London, United Kingdom<br/>
+      <span class="glyphicon glyphicon-calendar"></span>&nbsp;Workshop Date: August 20, 2018
     </p>
   </div>
 </div>
-<div class="container">
-  <!--end jumbotron -->
+<!--end jumbotron -->
 
-  <div class="row content">
-    <div class="col-sm-12" id="description">
-      <h2>Workshop Description</h2>
+<div class="container">
+ <div class="row">
+  <div class="tab-content">
+    <div role="tabpanel" class="tab-pane active" id="home"><br>
+      <h2>Overview</h2>
       <p>
-      Over the recent years, decreasing cost of data acquisition and ready
-      availability of data sources such as Electronic Health records (EHR), claims,
-      administrative data and patient-generated health data (PGHD), as well as
-      unstructured data, have led to an increased focus on data-driven and ML methods
-      for medical and healthcare domain. From the systems biology point of view,
-      large multimodal data typically including omics, clinical measurements and
-      imaging data are now readily available. Valuable information for obtaining
-      mechanistic insight into disease is also currently available in unstructured
-      formats for example in the scientific literature. The storage, integration and
-      analysis of these data present significant challenges for translational
-      medicine research and impact on the effective exploitation of the data.
-      Furthermore, intelligent analysis of observational data from EHR and PGHD
-      sources and integration of insights generated from the same to the system
-      biology sphere can greatly improving patient experience, outcome, and improving
-      the overall health of the population while reducing per capita cost of care.
-      However, the black-box nature, inherent in some of the best performing ML
-      methods, has widened the gap between how human and machines think and often
-      failed to provide explanations to make insights actionable. In the new era with
-      users of “right for explanation”, this is detrimental to the adoption in
-      practice. To drive the usage of such rich yet heterogeneous datasets into
-      actionable insights, we aim to bring together a wide array of stakeholders,
-      including practitioners, biomedical and data science specialists, and industry
-      solution subject matter experts. We will seek to start discussions on the area
-      of precision medicine as well as the importance of interpretability of ML
-      models towards increased practical use of ML in medicine and healthcare.
-      
+        Over the recent years, the decreasing cost of data acquisition and ready
+        availability of data sources such as Electronic Health records (EHR), claims,
+        administrative data and patient-generated health data (PGHD), as well as
+        unstructured data, have led to an increased focus on data-driven and ML methods
+        for medical and healthcare domain. From the systems biology point of view,
+        large multimodal data typically including omics, clinical measurements, and
+        imaging data are now readily available. Valuable information for obtaining
+        mechanistic insight into the disease is also currently available in
+        unstructured formats for example in the scientific literature. The storage,
+        integration, and analysis of these data present significant challenges for
+        translational medicine research and impact on the effective exploitation of the
+        data. Furthermore, intelligent analysis of observational data from EHR and PGHD
+        sources and integration of insights generated from the same to the system
+        biology sphere can greatly improving patient experience, outcome, and improving
+        the overall health of the population while reducing per capita cost of care.
+        However, the black-box nature, inherent in some of the best performing ML
+        methods, has widened the gap between how human and machines think and often
+        failed to provide explanations to make insights actionable. In the new era with
+        users of “right for explanation”, this is detrimental to the adoption in
+        practice. To drive the usage of such rich yet heterogeneous datasets into
+        actionable insights, we aim to bring together a wide array of stakeholders,
+        including practitioners, biomedical and data science specialists, and industry
+        solution subject matter experts. We will seek to start discussions in the area
+        of precision medicine as well as the importance of interpretability of ML
+        models towards the increased practical use of ML in medicine and healthcare.      
       </p>
     </div>
     <!-- end workshop description -->
 
-    <!-- <div class="col-sm-12" id="speakers"> -->
+    <!-- <div role="tabpanel" class="tab-pane" id="speakers"><br> -->
       <!-- <h2>Keynote Speakers</h2> -->
       <!-- <p></p> -->
     <!-- </div> -->
     <!-- end speakers -->
 
-    <div class="col-sm-12" id="call-for-papers">
+    <div role="tabpanel" class="tab-pane" id="call"><br>
       <h2>Call for Papers</h2>
       <p>We invite full papers, as well as work-in-progress on the application
-      of machine learning towards recision medicine and healthcare
-      informatics. Topics may include, but not limited to, the following
-      topics:
+      of machine learning for precision medicine and healthcare informatics.
+      Topics may include, but not limited to, the following topics:
       </p> 
       <ul>
         <li> Standards for data, including tools and harmonization</li>
         <li> Analysis of large scale electronic health records or patient-generated health data records</li>
-        <li> visualisation of complex and dynamic biomedical networks Machine Learning on Biomedical systems</li>
+        <li> Visualisation of complex and dynamic biomedical networks Machine Learning on Biomedical systems</li>
         <li> Precision Medicine</li>
         <li> Interpretable Machine Learning for biomedicine and healthcare</li>
         <li> Deep learning for biomedicine</li>
@@ -121,12 +121,12 @@
         Papers must be a maximum length of 4 pages, including references.
       </p>
 
-      <p>The program committee will select the papers based on orginiality, presentation,
+      <p>The program committee will select the papers based on originality, presentation,
       and technical quality for spotlight and/or poster presentation.</p>
     </div>
     <!-- end call -->
 
-    <div class="col-sm-12" id="dates">
+    <div role="tabpanel" class="tab-pane" id="dates"><br>
       <h2>Key Dates</h2>
       <ul>
         <li>Abstract Submission: May 8, 2018</li>
@@ -139,7 +139,7 @@
     <!-- end dates -->
 
 
-    <div class="col-sm-12" id="organizers">
+    <div role="tabpanel" class="tab-pane" id="organizers"><br>
       <h2>Organizers</h2>
       <ul>
           <li>Mansoor Saqi, King's College London, UK</li>
@@ -150,10 +150,12 @@
       </ul>
     </div>
     <!-- end organizers-->
-  </div>
+  </div> <!-- end tab-content -->
+ </div>
   <!-- end content row -->
-
-  <footer>
+</div> <!--overall container div -->
+<footer class="footer">
+  <div class="container-fluid">
     <div class="row" style="padding-top: 10px;">
        <div class="col-sm-12">
            <ul class="list-unstyled text-centre">
@@ -162,8 +164,8 @@
            </ul>
        </div>
     </div>
-  </footer>
-</div> <!--overall container div -->
+  </div>
+</footer>
 
 <!-- Jquery -->
 <script type="text/javascript" src="./packages/bootstrap3/js/jquery-3.3.1.min.js"></script>
