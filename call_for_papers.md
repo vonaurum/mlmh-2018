@@ -1,3 +1,7 @@
+2018 KDD workshop on Machine Learning for Medicine and Healthcare
+London, United Kingdom
+August 20, 2018
+
 ---------------------------------
 CALL FOR PAPERS
 ---------------------------------
