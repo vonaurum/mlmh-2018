@@ -75,11 +75,11 @@ presentation, and technical quality for spotlight and/or poster presentation.
 Organizers:
 ---------------------------------
 
-*  Dr. Mansoor Saqi, Imperial College London, UK
-*  Dr. Prithwish Chakraborty, IBM Research, USA
-*  Dr. Irina Balaur, EISBM, Lyon, France
-*  Dr. Paul Agapow, ICL, UK
-*  Dr. Scott Wagers, BioSci Consulting, Belgium
-*  Dr. Pei-Yun Sabrina Hsueh, IBM Research, USA
-*  Dr. Fred Rahmanian, Geneia, USA
-*  Dr. Muhammad Aurangzeb Ahmad, University of Washington, USA
+*  Mansoor Saqi, Imperial College London, UK
+*  Prithwish Chakraborty, IBM Research, USA
+*  Irina Balaur, EISBM, Lyon, France
+*  Paul Agapow, ICL, UK
+*  Scott Wagers, BioSci Consulting, Belgium
+*  Pei-Yun Sabrina Hsueh, IBM Research, USA
+*  Fred Rahmanian, Geneia, USA
+*  Muhammad Aurangzeb Ahmad, University of Washington, USA
