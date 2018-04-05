@@ -55,7 +55,7 @@ We invite full papers, as well as work-in-progress on the application of
 machine learning for precision medicine and healthcare informatics. Topics may
 include, but not limited to, the following topics (For more information see
 workshop overview)
- 
+
 * Data Standards for Translational Medicine Informatics
 * Analysis of large scale electronic health records or patient-generated health data records
 * Visualisation of complex and dynamic biomedical networks
@@ -65,8 +65,7 @@ workshop overview)
 
 Papers must be submitted in PDF format to
 https://easychair.org/conferences/?conf=mlmh2018 and formatted according to the
-new Standard ACM Conference Proceedings Template . Papers must be a maximum
-length of 4 pages, including references.
+new [Standard ACM Conference Proceedings Template](https://www.acm.org/publications/proceedings-template). Papers must be a maximum length of 4 pages, including references.
 
 The program committee will select the papers based on originality,
 presentation, and technical quality for spotlight and/or poster presentation.
@@ -82,4 +81,4 @@ Organizers:
 *  Scott Wagers, BioSci Consulting, Belgium
 *  Pei-Yun Sabrina Hsueh, IBM Research, USA
 *  Fred Rahmanian, Geneia, USA
-*  Muhammad Aurangzeb Ahmad, University of Washington, USA
+*  Muhammad Aurangzeb Ahmad, KenSci Inc, University of Washington, USA
